@@ -1,0 +1,5 @@
+this folder contains a spider that will crawl the name and phone no
+of the 中介 resides in Shanghai district from sofang.com
+运行方法
+type
+scrapy crawl soufang -o [filename].csv
