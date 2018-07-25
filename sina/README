@@ -1,0 +1,13 @@
+this folder contains a spider that scrapes agents' info from leju.com
+
+---------------- Enviornment setting -------------------------------
+need to pre-install scrapy 
+could install with homebrew or annaconda 
+for other methods, please follow the instructions online
+ 
+ ----------------- How to Run it -----------------------------------
+ type scrapy crawl sina -o [filename].csv in the cmd line 
+
+ ------------ How to Scrape Data from Other Cities -----------------
+ For specific instructions, please read the comments in 
+ sina_spider.py
