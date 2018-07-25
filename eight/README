@@ -1,0 +1,18 @@
+This folder contains a spider that will scrape data from 58同城
+------------------Enviornment Setting-------------------------
+need to pre-install scrapy
+
+-----------------How to Install-------------------------------
+install with homebrew or anaconda 
+For other methods, please follow the specific instruction online
+
+-----------------How to run-----------------------------------
+type scrapy crawl eight -o [filename].csv
+
+----------------How to resolve the coding---------------------
+open excel first, and then choose import csv file
+REMEMBER to CHANGE the coding option to UTF-8
+
+-----------------How to Change the City Option----------------
+For specific instructions, please read the comments in 
+eight_spider.py
