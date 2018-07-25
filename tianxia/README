@@ -1,0 +1,12 @@
+This folder contains a spider that will scrap data from the webiste 
+--------------------- Enviornment Setting ------------------------
+need to pre-intsall scrapy in the operating system 
+
+---------------------- How to Run --------------------------------
+cd into this folder 
+then type
+scrapy crawl tianxia -o [filename].csv
+
+----------------- How to Resolve the Coding Issue ----------------
+open the excel first, and then choose to import from csv file 
+REMEMBER TO CHANGE THE ENCODING TO UTF-8
