@@ -1,0 +1,17 @@
+This folder contains a spider that will crape agent's info
+from the specified website.
+
+--------------Prerequisite----------------
+need to install scrapy first 
+
+-------------How to Install---------------
+can instal with homebrew or anaconda 
+
+--------------How to Run------------------
+type scrape crawl qfang -o [filename].csv
+in the command line 
+
+------------How to Change the City--------
+follow specific instruciton written as 
+comments in qfang_spider.py
+
