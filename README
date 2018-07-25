@@ -1,0 +1,4 @@
+# data_scraping
+python-scrapy
+It contains spider that will scrape the info of agents based in Shanghai from anjuke, ganji, 58, fangtianxia, qfang and etc.
+It can also be applied to other regions. For specific instructions, please read the READMEs contained in each folder
