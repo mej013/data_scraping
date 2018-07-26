@@ -1,0 +1,8 @@
+This webiste dynamically loads data via ajax. Usually, selenium and phantomJS are used when scraping data from such websites.
+However, this method is very time-consuming. Thus, I used the developer tool came with Chrome to analyze the request sent by
+the website when clicking the button. This spider can scrape data from sohu.house at the speed 1500/min 
+
+搜狐房产的页面是动态加载的，点击查询电话才会弹出一个新的窗口。常规方法使用selenium来模拟人去点击来获取这个数据，但是这个相当的费时间。所以这个例子用的是
+另一个方法：用浏览器里的开发者工具去分析网站在被点击的时候发出的请求，然后获取包含了json数据的html文件。一般这个url是有固定格式的，可以去分析一下，不是很难。
+本例采用的方法非常的高效，可以1500/分的速度去爬取数据。
+
