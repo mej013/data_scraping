@@ -7,3 +7,4 @@ Folder Sohu contains an example to scrape data from a website that dynamically l
 用python编写的爬虫
 爬取各大房地产网站的中介人信息，除了搜狐以外其他的都是静态爬虫。虽然安居客和赶集网都要点击才显示电话号码，但是电话号码包含在了源代码的title里面，所以用正则表达式即可抓取。
 其中搜狐的文件夹里面包含了一个动态抓取数据以及多级存储item的案例，可供参考。
+另，请不要滥用爬虫
